@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1{
+    width: 10rem;
+    color: rgb(180, 29, 29);
+  
+
+    background-color: aliceblue;
+    border-radius: 6px;
+    margin: 3rem auto;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+input{
+    width: 100% ;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(27, 26, 26);
+    padding:0.23rem;
+    color: aquamarine;
+
+
+}
+
+input:focus{
+    background-color: blue;
+    color: brown;
+    ; 
+}
+
+
+.radio-x{
+    display: flex;
+
+}
+
+.radio-x input{
+    width: auto;
+    margin-right: 1rem;
+}
+
+button{
+    display: block;
+    
+    font: inherit;
+    background-color: aquamarine;
+    color: blue;
+    border: 1px solid rgb(180, 29, 29);
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
