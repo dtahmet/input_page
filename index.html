@@ -14,6 +14,13 @@
     <form action="/" method="GET">
         <label for="username">Your Name Ulan</label>
         <input type="text" name="user-name" id="username"/>
+        
+        <label for="usermessage">Your Message</label>
+        <textarea id="usermessage" name="user-message"> </textarea>
+
+
+
+
         <label for="useremail">Your Email Adress Ulan</label>
         <input type="email" name="user-email" id="useremail"/>
         <label for="userage">Your Age Ulan</label>
@@ -23,6 +30,16 @@
         <label for="userbirthday">Your Birthday</label>
         <input type="date" name="user-birthday" id="userbirthday"/>
         <hr>
+
+        <label for="favorite-color">Your favorite color?</label>
+        <select id="favorite-color" name="favorite-color">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Purple</option>
+        </select>
+
+
+
         <h2>Nasıl işleyelim hesabını koçingen?</h2>
         <div class="radio-x">
             <input type="radio" name="verify" id="verify-text"/>
@@ -35,9 +52,12 @@
         <div class="radio-x">
             <input type="radio" name="verify" id="verify-phone"/>
             <label for="verify-phone">Via a phone call</label>
-            
         </div>
-       
+        <div class="radio-x">
+        <input type="checkbox" name="check" id="agree-terms"/>
+        <label for="agree-terms">Are you agree?</label>
+        
+    </div>
         
         
         <button>Submit</button>

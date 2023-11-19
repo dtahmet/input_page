@@ -24,7 +24,9 @@ form{
     border-radius: 6px;
 }
 
-input{
+input,
+textarea,
+select{
     width: 100% ;
     display: block;
     margin-bottom: 1rem;
@@ -36,6 +38,7 @@ input{
 
 
 }
+
 
 input:focus{
     background-color: blue;
@@ -53,6 +56,8 @@ input:focus{
     width: auto;
     margin-right: 1rem;
 }
+
+
 
 button{
     display: block;
