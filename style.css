@@ -39,6 +39,9 @@ select{
 
 }
 
+textarea{
+    resize:vertical;
+}
 
 input:focus{
     background-color: blue;

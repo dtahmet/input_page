@@ -11,24 +11,24 @@
 </head>
 <body>
     <h1>GOOGLE</h1>
-    <form action="/" method="GET">
-        <label for="username">Your Name Ulan</label>
-        <input type="text" name="user-name" id="username"/>
+    <form action="/" method="GET" >
+        <label for="username">Your Name Ulan*</label>
+        <input type="text" name="user-name" id="username" required placeholder="Maximillak"/>
         
         <label for="usermessage">Your Message</label>
-        <textarea id="usermessage" name="user-message"> </textarea>
+        <textarea id="usermessage" name="user-message" rows=8> </textarea>
 
 
 
 
-        <label for="useremail">Your Email Adress Ulan</label>
-        <input type="email" name="user-email" id="useremail"/>
+        <label for="useremail">Your Email Adress Ulan*</label>
+        <input type="email" name="user-email" id="useremail" required/>
         <label for="userage">Your Age Ulan</label>
-        <input type="number" step="0.5" name="user-age" id="userage"/>
-        <label for="userpassword">Your Password</label>
-        <input type="password" name="user-password" id="userpassword">
+        <input type="number" step="0.5" name="user-age" id="userage" required min="18" max="100"/>
+        <label for="userpassword">Your Password*</label>
+        <input type="password" name="user-password" id="userpassword" required>
         <label for="userbirthday">Your Birthday</label>
-        <input type="date" name="user-birthday" id="userbirthday"/>
+        <input type="date" name="user-birthday" id="userbirthday" required min="1921-1-1" max="2000-1-1" />
         <hr>
 
         <label for="favorite-color">Your favorite color?</label>
@@ -60,7 +60,8 @@
     </div>
         
         
-        <button>Submit</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
         
         
 
